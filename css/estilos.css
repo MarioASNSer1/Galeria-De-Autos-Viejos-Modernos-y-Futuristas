@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans';
+}
+
+.contenedor-de-los-autos{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+/* Header */
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #12c2e9;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(356, 90%, 64%, 0.596), hsla(280, 78%, 69%, 0.63), hsla(191, 86%, 49%, 0.514)), url(../img/374abdb5d07d0f0d413aed3757677659.jpg);   
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(356, 90%, 64%, 0.596), hsla(280, 78%, 69%, 0.63), hsla(191, 86%, 49%, 0.514)), url(../img/374abdb5d07d0f0d413aed3757677659.jpg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px;
+}
+
+nav > a{
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textos-header h1{
+    font-size: 40px;
+    color: #fff;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+/* About Us */
+
+.Contenedor-de-los-autos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us{
+    width: 100%;
+}
+
+.de-los-autos .contenedor-textos{
+    width: 100%;
+}
+
+.contenedor-textos h3{
+    margin-top: 15px;
+}
+
+.contenedor-textos h3 span{
+    background: #4d0686;
+    color: #fff;
+    border-radius: 5%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2%;
+    box-shadow: 0 0 6px 0 rgba(0, 0,0, .5);
+    padding: 2px;
+    margin-right: 4px;
+    margin-left: 2px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 15px 30px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* Details */
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards .card{
+    background: #4d0686;
+    display: flex;
+    width: 46%;
+    height: 250px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    margin-top: 60px;
+}
+
+.cards .card img{
+    width: 100%;
+    height: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 10%;
+    display: block;
+}
+
+.cards .card > .contenido-texto-card{
+    width: 80%;
+    color: #fff;
+}
+
+.cards .card > .contenido-texto-card p{
+      font-weight: 300;
+      padding-top: 5px;
+}
+
+/* Anuncios */
+
+.about-services{
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+.servicio-cont{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    display:block;
+}
+
+.servicio-ind{
+    width: 100%;
+    text-align: center;
+}
+
+.servicio-ind img{
+    width: 50%;
+}
+
+.servicio.ind h3{
+    margin: 10px 0;
+}
+
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* footer */
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor3-footer{
+    display:flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* CARRUSEL */
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
